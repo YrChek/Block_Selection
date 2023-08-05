@@ -8,7 +8,7 @@ function view(Component) {
   return class extends React.Component {
     static get displayName() {
       const name = Component.displayName || Component.name || 'Component';
-      return `WithData(${name})`;
+      return `View(${name})`;
     }
     render() {
     const views = this.props;
